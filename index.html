@@ -35,8 +35,12 @@
     </section>
 </main>
 
-    <footer>
-        <p>&copy; 2026, Булавин Данила Денисович</p>
+        <footer>
+        <p>&copy; <span id="year">2026</span>, Булавин Данила Денисович</p>
     </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
